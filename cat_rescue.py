@@ -60,19 +60,7 @@ def generate_response(input_prompt: str, script: str):
     return tokenizer.decode(response, skip_special_tokens=True)
 
 speaker_script = """
-A busy afternoon unfolds around a big old tree: everyone has a different plan, and none of them quite agree on what “the right way” to use the tree is.
-
-## Beginning
-
-In a quiet yard, a huge tree stands like a neighborhood landmark, and it draws people in the way a stage draws actors. A man has climbed up into the branches to sit and work, trying to look calm and in control high above the ground. Below him, a ladder has been left leaning nearby, as if someone expected climbing up and down would be the simplest part of the day.
-
-## Middle
-
-On one side, a child plays with a small toy on the ground, paying attention to something completely different from the grown-ups’ worries. Near the trunk, someone starts using tools against the tree itself—cutting into what everyone else is relying on—while another person hurries in as if there’s an urgent job to finish. Off to the right, a vehicle is parked close by, and more people move around with equipment, turning the peaceful yard into a worksite without ever stopping to ask permission from the tree—or from each other.
-
-## End
-
-At first, nothing seems to happen; everyone keeps doing their own task, assuming the tree will simply keep holding steady. But the moment the cutting goes too far, the man in the branches realizes that “being above the mess” doesn’t protect him from it, and everyone finally looks up at the same time. They stop, argue, then work together—moving the ladder, putting the tools down, and stepping back—until the tree is safe again, and the yard returns to something like quiet, with everyone a little more careful about what they take for granted.
+# LLM response
 """
 
 
