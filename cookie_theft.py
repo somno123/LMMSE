@@ -61,24 +61,7 @@ def generate_response(input_prompt: str, script: str):
     return tokenizer.decode(response, skip_special_tokens=True)
 
 speaker_script = """
-A black-and-white line drawing shows a kitchen scene where two children are trying to reach a cookie jar while an adult stands at a sink with water overflowing.
-
-## Left side (kids and cookie jar)
-
-- One child is standing on a step ladder and reaching up into an open cabinet.
-- Inside that cabinet is a container labeled “COOKIE JAR,” and the child appears to be trying to get to it.
-- A second child stands on the floor with arms raised toward the child on the ladder, as if asking for cookies or trying to help.
-
-## Right side (adult and sink)
-
-- An adult (likely a woman) is standing at the kitchen sink holding a dish or plate and a towel, as if drying it.
-- Water is running/overflowing from the sink, spilling down the front of the cabinet and forming a puddle on the floor.
-- A window behind the sink has curtains pulled aside.
-
-## Other kitchen details
-
-- Countertops and cabinets run along the wall; the cabinet near the children is open.
-- There appear to be dishes/utensils on the counter near the sink (including a cup/mug and a plate).
+# LLM response
 """
 
 
